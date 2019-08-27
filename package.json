@@ -1,0 +1,27 @@
+{
+  "name": "protractorpoc",
+  "version": "1.0.0",
+  "description": "protractor poc for GTM",
+  "main": "index.js",
+  "scripts": {
+    "test": " protractor configuration.js",  
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "protractor99": "./node_modules/.bin/protractor configuration.js",
+     "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "vamsi kunamneni",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "typescript": "~3.5.3",
+    "jasmine": "~3.4.0",
+    "@types/jasmine": "~3.4.0",
+    "@types/jasminewd2": "2.0.6",
+    "ts-node": "8.3.0",
+    "@types/node": "12.7.2"
+  },
+  "devDependencies": {
+    "protractor-beautiful-reporter": "^1.2.9"
+  }
+}
